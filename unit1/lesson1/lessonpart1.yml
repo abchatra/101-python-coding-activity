@@ -1,0 +1,147 @@
+id: lessonpart1
+title: Add two numbers
+duration: 5
+content: >
+  
+  # Python Program to Add Two Numbers
+
+
+  ## Introduction
+
+
+  Adding two numbers is one of the simplest and most fundamental programming
+  tasks. This program is designed to take two inputs from the user, add them
+  together, and print the result. This basic operation is foundational in
+  learning programming and understanding data manipulation.
+
+
+  ## Program
+
+
+  ```python
+
+  def add_two_numbers(a, b):
+      return a + b
+
+  # User input
+
+  num1 = float(input("Enter the first number: "))
+
+  num2 = float(input("Enter the second number: "))
+
+
+  # Function call
+
+  result = add_two_numbers(num1, num2)
+
+
+  # Display the result
+
+  print(f"The sum of {num1} and {num2} is: {result}")
+
+  ```
+
+
+  ## Explanation
+
+
+  1. **Function Creation**: The `add_two_numbers(a, b)` function is created to
+  take two arguments, `a` and `b`, and return their sum. This encapsulates the
+  addition logic and makes it reusable.
+
+  2. **Input Handling**: The `input()` function is used to take user input, and
+  it is converted to `float` to allow for decimal numbers as well as integers.
+
+  3. **Function Call and Result Display**: The input values are passed to the
+  `add_two_numbers` function, and the result is printed.
+
+
+  ## Test Cases
+
+
+  ### Test Case 1
+
+  **Input**:
+
+  ```
+
+  Enter the first number: 5
+
+  Enter the second number: 3
+
+  ```
+
+  **Output**:
+
+  ```
+
+  The sum of 5.0 and 3.0 is: 8.0
+
+  ```
+
+
+  ### Test Case 2
+
+  **Input**:
+
+  ```
+
+  Enter the first number: -2.5
+
+  Enter the second number: 4.5
+
+  ```
+
+  **Output**:
+
+  ```
+
+  The sum of -2.5 and 4.5 is: 2.0
+
+  ```
+
+
+  ### Test Case 3
+
+  **Input**:
+
+  ```
+
+  Enter the first number: 0
+
+  Enter the second number: 0
+
+  ```
+
+  **Output**:
+
+  ```
+
+  The sum of 0.0 and 0.0 is: 0.0
+
+  ```
+
+
+  ### Test Case 4
+
+  **Input**:
+
+  ```
+
+  Enter the first number: 123456789
+
+  Enter the second number: 987654321
+
+  ```
+
+  **Output**:
+
+  ```
+
+  The sum of 123456789.0 and 987654321.0 is: 1111111110.0
+
+  ```
+showContent: true
+showEditor: false
+showTerminal: false
+showExplorer: false

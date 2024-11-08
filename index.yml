@@ -1,27 +1,288 @@
-# yaml-language-server: $schema=https://vscodeedu.com/schema/course-v2.schema.json
 id: course1
 title: 101 python coding activity
 level: beginner
-description: This creates a coding activity for python
+description: >+
+  Sure! Here are 101 Python programming questions, divided into different
+  sections based on difficulty levels and some key sub-sections for a
+  comprehensive practice set.
+
+
+  ---
+
+
+  ### **Easy Level (35 Questions)**
+
+
+  #### **Basics (15 Questions)**
+
+  1. Write a Python program to add two numbers.
+
+  2. Create a program that checks if a number is even or odd.
+
+  3. Write a function to calculate the factorial of a number.
+
+  4. Create a program that prints the Fibonacci series up to 'n' terms.
+
+  5. Write a Python program to find the largest of three numbers.
+
+  6. Check if a string is a palindrome.
+
+  7. Write a program to count the number of vowels in a string.
+
+  8. Reverse a given string using a loop.
+
+  9. Write a Python program to swap two variables without a temporary variable.
+
+  10. Create a simple calculator program for addition, subtraction,
+  multiplication, and division.
+
+  11. Find the sum of all elements in a list.
+
+  12. Write a program to remove duplicates from a list.
+
+  13. Count the number of characters in a string (without using the built-in
+  `len()` function).
+
+  14. Print the prime numbers between 1 and 100.
+
+  15. Convert a given temperature from Celsius to Fahrenheit.
+
+
+  #### **Conditionals & Loops (10 Questions)**
+
+  16. Write a program that prints the multiplication table for a number.
+
+  17. Print all prime numbers within a given range.
+
+  18. Check if a number is a perfect square.
+
+  19. Find the greatest common divisor (GCD) of two numbers.
+
+  20. Write a Python program to reverse a number.
+
+  21. Write a program to find the sum of the digits of a number.
+
+  22. Check whether a given year is a leap year.
+
+  23. Write a program to display all numbers divisible by 5 within a specified
+  range.
+
+  24. Count the number of times a character appears in a string.
+
+  25. Calculate the sum of even and odd numbers separately from 1 to 'n'.
+
+
+  #### **Data Structures (10 Questions)**
+
+  26. Create a list and perform append, pop, and insert operations.
+
+  27. Write a program to merge two dictionaries.
+
+  28. Find the length of a list using a loop.
+
+  29. Write a Python program to sort a list of numbers in ascending order.
+
+  30. Create a dictionary with student names as keys and scores as values, then
+  find the student with the highest score.
+
+  31. Write a program to check if a key exists in a dictionary.
+
+  32. Convert a list to a set and remove duplicate values.
+
+  33. Create a tuple from a list and access individual elements.
+
+  34. Write a program to find the intersection and union of two sets.
+
+  35. Count occurrences of each element in a list.
+
+
+  ---
+
+
+  ### **Medium Level (35 Questions)**
+
+
+  #### **String Manipulation (10 Questions)**
+
+  36. Find all substrings of a given string.
+
+  37. Write a program to replace all occurrences of a substring in a string with
+  another substring.
+
+  38. Count the frequency of each word in a string.
+
+  39. Write a program to check if two strings are anagrams.
+
+  40. Convert a given string to uppercase without using the built-in `upper()`
+  method.
+
+  41. Find the longest word in a given string.
+
+  42. Write a program to remove all non-alphabetic characters from a string.
+
+  43. Implement a function to capitalize the first letter of every word in a
+  string.
+
+  44. Write a program to reverse the words in a sentence.
+
+  45. Count the number of words in a sentence.
+
+
+  #### **List and Tuple Operations (10 Questions)**
+
+  46. Write a program to find the second-largest element in a list.
+
+  47. Remove all occurrences of an element from a list.
+
+  48. Flatten a list of lists (nested list).
+
+  49. Rotate elements of a list left by `n` positions.
+
+  50. Find the maximum and minimum elements in a list using loops.
+
+  51. Create a function to find the median of a list.
+
+  52. Write a Python program to count unique elements in a list.
+
+  53. Convert a list of tuples into a dictionary.
+
+  54. Create a function to remove elements present at even indexes.
+
+  55. Write a program to check if two lists are equal.
+
+
+  #### **File Handling (5 Questions)**
+
+  56. Write a program to read a text file and display the number of lines and
+  words.
+
+  57. Copy contents of one file to another.
+
+  58. Write a program to append text to an existing file.
+
+  59. Read a file and count the frequency of each word.
+
+  60. Create a program to check if a file exists.
+
+
+  #### **Functions (10 Questions)**
+
+  61. Write a function to calculate the power of a number using recursion.
+
+  62. Implement a function to return the first 'n' prime numbers.
+
+  63. Create a function that returns the sum of squares of all numbers in a
+  list.
+
+  64. Write a function to generate the nth Fibonacci number.
+
+  65. Create a function to check if a string is a pangram.
+
+  66. Implement a function that takes a list and a number and returns a new list
+  of elements greater than that number.
+
+  67. Write a function that accepts variable-length arguments and returns their
+  sum.
+
+  68. Create a function to return the intersection of two lists.
+
+  69. Implement a function to count the frequency of characters in a string.
+
+  70. Write a function to reverse the order of elements in a tuple.
+
+
+  ---
+
+
+  ### **Hard Level (31 Questions)**
+
+
+  #### **Advanced Data Structures (8 Questions)**
+
+  71. Implement a stack using lists.
+
+  72. Write a program to solve the Tower of Hanoi problem using recursion.
+
+  73. Create a function to find all permutations of a string.
+
+  74. Implement a basic linked list and perform insertion and deletion.
+
+  75. Write a program to find the shortest path in a graph using BFS.
+
+  76. Implement a priority queue using a list.
+
+  77. Create a binary search tree (BST) and perform inorder, preorder, and
+  postorder traversals.
+
+  78. Write a program to perform merge sort on a list.
+
+
+  #### **Algorithms (8 Questions)**
+
+  79. Implement a binary search algorithm.
+
+  80. Write a function to find the longest increasing subsequence in a list.
+
+  81. Create a function to sort a list using quicksort.
+
+  82. Implement a basic LRU (Least Recently Used) Cache using a dictionary.
+
+  83. Write a program to find the longest common subsequence (LCS) of two
+  strings.
+
+  84. Implement Dijkstra’s algorithm for finding the shortest paths from a
+  source node.
+
+  85. Create a function to detect a cycle in a graph.
+
+  86. Implement bubble sort and count the number of swaps.
+
+
+  #### **Decorators, Generators, and OOP (10 Questions)**
+
+  87. Write a generator function to yield Fibonacci numbers.
+
+  88. Create a custom decorator for logging the execution time of a function.
+
+  89. Implement a class for a bank account with methods for deposit, withdrawal,
+  and balance inquiry.
+
+  90. Create a class that inherits from another class and demonstrates
+  polymorphism.
+
+  91. Write a program to implement a singleton design pattern in Python.
+
+  92. Define an abstract class with an abstract method and implement it in a
+  derived class.
+
+  93. Create a generator that yields elements of a list in reverse order.
+
+  94. Write a function that memoizes results using a dictionary.
+
+  95. Implement operator overloading for the addition and subtraction of custom
+  objects.
+
+  96. Write a program to handle custom exceptions using user-defined exception
+  classes.
+
+
+  #### **Miscellaneous (5 Questions)**
+
+  97. Solve the N-Queens problem using backtracking.
+
+  98. Write a program to validate a given regular expression pattern.
+
+  99. Create a simple web scraper using the requests and BeautifulSoup
+  libraries.
+
+  100. Implement a basic chatbot using if-else statements.
+
+  101. Solve a problem using dynamic programming (e.g., the Knapsack problem).
+
 contacts:
   - displayName: abchatra
     homePageUrl: https://github.com/abchatra/101-python-coding-activity
 units:
-  - id: unit1
-    title: Introduction
-    objectives: Learn about the course and its objectives.
-    lessons:
-      - id: lesson1
-        title: About this course
-        objectives: Understand the course structure and objectives.
-        lessonParts:
-          - id: lessonpart1
-            title: Welcome to 101 python coding activity
-            duration: 5
-            content: |-
-              **Welcome to the course authoring!**
-              You can use Markdown to format your content.
-            showContent: true
-            showEditor: false
-            showTerminal: false
-            showExplorer: false
+  - unit1/index.yml
+  - unit2/index.yml
+  - unit3/index.yml

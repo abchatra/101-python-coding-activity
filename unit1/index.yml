@@ -1,0 +1,6 @@
+id: unit1
+title: Easy Level
+description: ""
+objectives: Learn about the course and its objectives.
+lessons:
+  - lesson1/index.yml

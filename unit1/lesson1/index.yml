@@ -1,0 +1,10 @@
+id: lesson1
+title: Basics
+objectives: Understand the course structure and objectives.
+lessonParts:
+  - lessonpart1.yml
+  - lessonpart2.yml
+  - lessonpart3.yml
+  - lessonpart4.yml
+  - lessonpart5.yml
+  - lessonpart6.yml
