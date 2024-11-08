@@ -1,7 +1,7 @@
 id: lessonpart1
 title: Add two numbers
 duration: 5
-content: >
+content: >-
   
   # Python Program to Add Two Numbers
 
@@ -14,32 +14,6 @@ content: >
   together, and print the result. This basic operation is foundational in
   learning programming and understanding data manipulation.
 
-
-  ## Program
-
-
-  ```python
-
-  def add_two_numbers(a, b):
-      return a + b
-
-  # User input
-
-  num1 = float(input("Enter the first number: "))
-
-  num2 = float(input("Enter the second number: "))
-
-
-  # Function call
-
-  result = add_two_numbers(num1, num2)
-
-
-  # Display the result
-
-  print(f"The sum of {num1} and {num2} is: {result}")
-
-  ```
 
 
   ## Explanation
@@ -141,6 +115,43 @@ content: >
   The sum of 123456789.0 and 987654321.0 is: 1111111110.0
 
   ```
+
+
+
+  ## Program
+
+
+
+
+  <details> 
+   <summary><b>Cheat?</b> Click here to see the code.</summary>  
+
+  ```python
+
+  def add_two_numbers(a, b):
+      return a + b
+
+  # User input
+
+  num1 = float(input("Enter the first number: "))
+
+  num2 = float(input("Enter the second number: "))
+
+
+  # Function call
+
+  result = add_two_numbers(num1, num2)
+
+
+  # Display the result
+
+  print(f"The sum of {num1} and {num2} is: {result}")
+
+  ```
+
+
+
+  </details>
 showContent: true
 showEditor: false
 showTerminal: false
