@@ -46,15 +46,9 @@ content: >
 
   ```
 
-  python
+  def check_even_odd(number: int) -> str: # Your code here
 
   ```
-
-
-  CopyEdit
-
-
-  `def check_even_odd(number: int) -> str: # Your code here`
 
 
   #### **Example Test Cases**
