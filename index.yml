@@ -1,5 +1,6 @@
+# yaml-language-server: $schema=https://vscodeedu.com/schema/course-v2.schema.json
 id: course1
-title: 101 python coding activity
+title: 101 Python programming questions
 level: beginner
 description: >+
   Sure! Here are 101 Python programming questions, divided into different
@@ -279,9 +280,35 @@ description: >+
 
   101. Solve a problem using dynamic programming (e.g., the Knapsack problem).
 
+cardImageUrl: https://ppe.vscodeedu.com/assets/course-cards/card4.png
 contacts:
   - displayName: abchatra
     homePageUrl: https://github.com/abchatra/101-python-coding-activity
+files:
+  - path: course1:unit1:lesson1:lessonpart1/add.py
+    content: "def add_two_numbers(a, b):\r
+
+      \    ## write addition code here\r
+
+      \r
+
+      # User input\r
+
+      num1 = float(input(\"Enter the first number: \"))\r
+
+      ## accept num2 here \r
+
+      \r
+
+      # Function call\r
+
+      result = add_two_numbers(num1, num2)\r
+
+      \r
+
+      # Display the result\r
+
+      print(f\"The sum of {num1} and {num2} is: {result}\") "
 units:
   - unit1/index.yml
   - unit2/index.yml
