@@ -1,6 +1,101 @@
 # yaml-language-server: $schema=https://vscodeedu.com/schema/course-v2.schema.json
 id: lessonpart2
 title: Check if number is even or odd
+content: >
+  #### **Introduction**
+
+
+  In this puzzle, you will write a program that determines whether a given
+  number is **even** or **odd**. This is a fundamental programming task that
+  helps build logical thinking and understanding of numerical properties.
+
+
+  #### **Problem Statement**
+
+
+  Write a function that takes an integer as input and returns whether the number
+  is **"Even"** or **"Odd"**. Your function should check if the number is
+  divisible by 2 and return the appropriate result.
+
+
+  #### **Explanation**
+
+
+  A number is considered:
+
+
+  * **Even** if it is divisible by 2 (i.e., `number % 2 == 0`).
+
+  * **Odd** if it is not divisible by 2 (i.e., `number % 2 != 0`).
+
+
+  For example:
+
+
+  * **4** is even because `4 % 2 == 0`
+
+  * **7** is odd because `7 % 2 == 1`
+
+
+  Your task is to implement a function that determines if a given number is even
+  or odd.
+
+
+  #### **Function Signature**
+
+
+  ```
+
+  python
+
+  ```
+
+
+  CopyEdit
+
+
+  `def check_even_odd(number: int) -> str: # Your code here`
+
+
+  #### **Example Test Cases**
+
+
+  | Input | Output |
+
+  | :---- | :----- |
+
+  | 10    | "Even" |
+
+  | 3     | "Odd"  |
+
+  | 0     | "Even" |
+
+  | -7    | "Odd"  |
+
+  | -2    | "Even" |
+
+
+  #### **Constraints**
+
+
+  * The input will always be an integer.
+
+  * The number can be positive, negative, or zero.
+
+
+  #### **Hint**
+
+
+  Use the modulus operator `%` to determine if a number is divisible by 2.
+
+
+  #### **Challenge**
+
+
+  Try to solve this problem using as few lines of code as possible!
+
+
+  Good luck! 🚀
 showContent: true
 showEditor: false
 showTerminal: false
