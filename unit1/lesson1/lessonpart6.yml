@@ -1,0 +1,133 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart6
+title: Count the number of vowels
+content: >+
+  # Count the Number of Vowels in a String
+
+
+  ## &#x20;Introduction
+
+
+  Vowels are an essential part of the English alphabet, consisting of the
+  letters *A, E, I, O, U* (both uppercase and lowercase). In this problem, we
+  will write a Python function to count the number of vowels in a given string.
+
+
+  ## Problem Statement
+
+
+  Write a Python function that takes a string as input and returns the count of
+  vowels present in the string. The function should be case-insensitive, meaning
+  it should count both uppercase and lowercase vowels.
+
+
+  ## &#x20;Explanation
+
+
+  To solve this problem, follow these steps:
+
+
+  1\. Define a function that takes a string as input.
+
+
+  2\. Convert the string to lowercase to handle case insensitivity.
+
+
+  3\. Iterate through the string and count occurrences of vowels (\`a, e, i, o,
+  u\`).
+
+
+  4\. Return the total count of vowels.
+
+
+  ## &#x20;Function Signature
+
+
+  ```
+
+  def count_vowels(s)
+
+  ```
+
+
+
+
+  ## Example Test Cases
+
+
+  ### &#x20;Input:
+
+
+  ```
+
+  print(count_vowels("Hello World"))
+
+
+  print(count_vowels("Python Programming"))
+
+
+  print(count_vowels("AEIOUaeiou"))
+
+
+  print(count_vowels("xyz"))
+
+  ```
+
+
+  ### &#x20;Output:
+
+
+  3
+
+
+  5
+
+
+  10
+
+
+  0
+
+
+  ## Constraints
+
+
+  1\. The function should handle both uppercase and lowercase vowels.
+
+
+  2\. The input string can contain alphabets, numbers, and special characters.
+
+
+  3\. The input string length can be up to \`10^5\` characters.
+
+
+  ## Hint
+
+
+  * Use a set of vowels (\`{'a', 'e', 'i', 'o', 'u'}\`) for quick lookup.
+
+  * Convert the string to lowercase using \`.lower()\` to simplify the
+  comparison.
+
+  * You can use list comprehension or the \`sum()\` function for a concise
+  solution.
+
+
+  ## Challenges
+
+
+  1\. Modify the function to count and return the occurrences of each vowel
+  separately.
+
+
+  2\. Optimize the function to process large strings efficiently.
+
+
+  3\. Extend the function to count vowels in multiple words or a paragraph.
+
+
+
+
+  This problem helps in understanding string traversal, conditionals, and
+  counting operations in Python.
+
