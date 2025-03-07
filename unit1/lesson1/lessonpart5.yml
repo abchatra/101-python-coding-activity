@@ -116,3 +116,5 @@ content: >
   This problem helps in understanding conditional statements and comparisons in
   Python.
 showEditor: true
+editors:
+  - course1/unit1/lesson1/lessonpart5/test.py

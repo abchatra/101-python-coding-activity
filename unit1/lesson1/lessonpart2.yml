@@ -91,3 +91,5 @@ content: >
 
   Good luck! 🚀
 showEditor: true
+editors:
+  - course1/unit1/lesson1/lessonpart2/test.py

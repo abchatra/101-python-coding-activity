@@ -1,0 +1,130 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart4
+title: Palindrome
+content: >+
+  # &#x20;Check if a String is a Palindrome
+
+
+  ## Introduction
+
+
+  A palindrome is a word, phrase, number, or sequence of characters that reads
+  the same forward and backward. Some common examples include "radar", "level",
+  and "madam". In this problem, we will write a Python function to check if a
+  given string is a palindrome.
+
+
+  ## Problem Statement
+
+
+  Write a Python function that takes a string as input and returns \`True\` if
+  the string is a palindrome and \`False\` otherwise. The function should ignore
+  case and spaces while checking for palindromes.
+
+
+  ## &#x20;Explanation
+
+
+  To solve this problem, follow these steps:
+
+
+  1\. Convert the string to lowercase to ensure case insensitivity.
+
+
+  2\. Remove spaces and non-alphanumeric characters (if necessary).
+
+
+  3\. Compare the string with its reverse.
+
+
+  4\. Return \`True\` if the string is the same when reversed; otherwise, return
+  \`False\`.
+
+
+  ## &#x20;Function Signature
+
+
+  ```
+
+  def is_palindrome(s):
+
+  ```
+
+
+  ## &#x20;Example Test Cases
+
+
+  ### &#x20;Input:
+
+
+  ```
+
+  print(is_palindrome("radar"))
+
+
+  print(is_palindrome("hello"))
+
+
+  print(is_palindrome("A man a plan a canal Panama"))
+
+
+  print(is_palindrome("No lemon, no melon"))
+
+  ```
+
+
+
+
+  ### &#x20;Output:
+
+
+  True
+
+
+  False
+
+
+  True
+
+
+  True
+
+
+  ## &#x20;Constraints
+
+
+  1\. The function should work for both uppercase and lowercase letters.
+
+
+  2\. Spaces and punctuation can be ignored (optional, depending on the
+  requirement).
+
+
+  3\. The input string can have a length of up to \`10^5\` characters.
+
+
+  ## &#x20;Hint
+
+
+  \- You can use the \`.lower()\` method to handle case insensitivity.
+
+
+
+
+  ## Challenges
+
+
+  1\. Modify the function to handle numeric palindromes (e.g., "12321").
+
+
+  2\. Implement an iterative approach without using string slicing.
+
+
+  3\. Optimize for very large strings using two-pointer technique.
+
+
+
+
+  This problem helps in understanding string manipulation, conditionals, and
+  efficient algorithm design in Python.
+

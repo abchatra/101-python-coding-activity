@@ -131,3 +131,5 @@ content: >
   This problem helps in understanding recursion, loops, and mathematical
   functions in Python.
 showEditor: true
+editors:
+  - course1/unit1/lesson1/lessonpart7/test.py

@@ -133,3 +133,5 @@ content: >
   This problem helps beginners understand function definition, return
   statements, and basic arithmetic operations in Python.
 showEditor: true
+editors:
+  - course1/unit1/lesson1/lessonpart1/test.py

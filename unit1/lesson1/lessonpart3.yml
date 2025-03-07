@@ -145,3 +145,5 @@ content: >+
   in Python.
 
 showEditor: true
+editors:
+  - course1/unit1/lesson1/lessonpart3/test.py
