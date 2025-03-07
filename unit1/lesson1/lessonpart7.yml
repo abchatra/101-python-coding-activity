@@ -1,0 +1,133 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart7
+title: Factorial of a number
+content: >+
+  # Calculate Factorial of a Number
+
+
+  ## Introduction
+
+
+  Factorial is a fundamental mathematical concept that is widely used in
+  permutations, combinations, and probability calculations. In this problem, we
+  will write a function to compute the factorial of a given number using Python.
+
+
+  ## Problem Statement
+
+
+  Write a Python function that takes a non-negative integer as input and returns
+  its factorial. The factorial of a number \`n\` is defined as:
+
+
+  *  \`n! = n \* (n-1) \* (n-2) \* ... \* 1\`
+
+  * The factorial of \`0\` is \`1\` by definition.
+
+
+  ## Explanation
+
+
+  To solve this problem, follow these steps:
+
+
+  1\. Define a function that takes one parameter (the number \`n\`).
+
+
+  2\. Implement a method to calculate the factorial: - Use an iterative or
+  recursive approach.
+
+
+  3\. Return the computed factorial value.
+
+
+  Your function should be able to handle different values of \`n\` efficiently.
+
+
+  ## Function Signature
+
+
+  ```
+
+  def factorial(n):
+
+  ```
+
+
+  ## Example Test Cases
+
+
+  ### Input:
+
+
+  ```
+
+  print(factorial(5))
+
+
+  print(factorial(0))
+
+
+  print(factorial(3))
+
+
+  print(factorial(7))
+
+  ```
+
+
+  ### Output:
+
+
+  120
+
+
+  1
+
+
+  6
+
+
+  5040
+
+
+  ## Constraints
+
+
+  1\. The input \`n\` should be a non-negative integer.
+
+
+  2\. The function should return an integer value.
+
+
+  3\. Consider handling large values of \`n\` efficiently.
+
+
+  ## Hint
+
+
+  * You can use recursion where \`factorial(n) = n \* factorial(n-1)\`, but
+  ensure you handle the base case properly.
+
+  * An iterative approach using a loop may be more efficient for larger values
+  of \`n\`.
+
+
+  ## Challenges
+
+
+  1\. Modify the function to handle very large numbers without causing recursion
+  depth errors.
+
+
+  2\. Implement a version that calculates factorial using dynamic programming to
+  optimize performance.
+
+
+  3\. Extend the function to return the factorial of a floating-point number
+  using the Gamma function.
+
+
+  This problem helps in understanding recursion, loops, and mathematical
+  functions in Python.
+
