@@ -128,5 +128,6 @@ content: >+
   This problem helps in understanding string manipulation, conditionals, and
   efficient algorithm design in Python.
 
+showEditor: true
 editors:
   - course1/unit1/lesson1/lessonpart4/test.py

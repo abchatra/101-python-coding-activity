@@ -131,3 +131,6 @@ content: >+
   This problem helps in understanding string traversal, conditionals, and
   counting operations in Python.
 
+showEditor: true
+editors:
+  - course1/unit1/lesson1/lessonpart6/test.py

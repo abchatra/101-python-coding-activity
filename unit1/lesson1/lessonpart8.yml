@@ -132,3 +132,6 @@ content: >+
   This problem helps in understanding loops, string manipulation, and optimizing
   operations in Python.
 
+showEditor: true
+editors:
+  - course1/unit1/lesson1/lessonpart8/test.py

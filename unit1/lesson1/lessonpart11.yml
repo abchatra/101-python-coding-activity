@@ -1,0 +1,129 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart11
+title: Sum of all elements in a list
+content: >+
+  # Find the Sum of All Elements in a List
+
+
+  ## &#x20;Introduction
+
+
+  Lists are one of the most commonly used data structures in Python. In this
+  problem, we will write a Python function to calculate the sum of all elements
+  in a given list.
+
+
+  ## &#x20;Problem Statement
+
+
+  Write a Python function that takes a list of numbers as input and returns the
+  sum of all elements in the list.
+
+
+  ## Explanation
+
+
+  To solve this problem, follow these steps:
+
+
+  1\. Define a function that takes a list as input.
+
+
+  2\. Initialize a variable to store the sum (e.g., \`total = 0\`).
+
+
+  3\. Iterate through the list and add each element to the sum.
+
+
+  4\. Return the final sum.
+
+
+  ## &#x20;Function Signature
+
+
+  ```
+
+  def sum_of_list(numbers):
+
+  ```
+
+
+  ## &#x20;Example Test Cases
+
+
+  ### &#x20;Input:
+
+
+  ```
+
+  print(sum_of_list([1, 2, 3, 4, 5]))
+
+
+  print(sum_of_list([-1, 10, -5, 8]))
+
+
+  print(sum_of_list([0, 0, 0, 0]))
+
+
+  print(sum_of_list([100]))
+
+  ```
+
+
+  ### &#x20;Output:
+
+
+  15
+
+
+  12
+
+
+  0
+
+
+  100
+
+
+  ## &#x20;Constraints
+
+
+  1\. The input list can contain positive, negative, and zero values.
+
+
+  2\. The function should return \`0\` if the list is empty.
+
+
+  3\. The list length can be up to \`10^6\` elements, so the function should be
+  optimized.
+
+
+  ## &#x20;Hint
+
+
+  * Use a loop (\`for\` or \`while\`) to iterate through the list and accumulate
+  the sum.
+
+  * Consider using Python’s built-in \`sum()\` function for a more concise
+  solution.
+
+
+  ## &#x20;Challenges
+
+
+  1\. Modify the function to return the sum of only even numbers in the list.
+
+
+  2\. Implement an optimized approach using built-in functions.
+
+
+  3\. Extend the function to work with lists containing floating-point numbers.
+
+
+
+
+  This problem helps in understanding list traversal, aggregation operations,
+  and basic performance optimizations in Python.
+
+editors:
+  - course1/unit1/lesson1/lessonpart11/test.py

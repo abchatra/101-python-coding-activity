@@ -125,3 +125,6 @@ content: >+
   This problem helps in understanding tuple unpacking, arithmetic operations,
   and efficient variable manipulation in Python.
 
+showEditor: true
+editors:
+  - course1/unit1/lesson1/lessonpart9/test.py
