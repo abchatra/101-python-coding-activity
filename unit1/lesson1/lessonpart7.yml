@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart7
 title: Factorial of a number
-content: >+
+content: >
   # Calculate Factorial of a Number
 
 
@@ -20,7 +20,7 @@ content: >+
   its factorial. The factorial of a number \`n\` is defined as:
 
 
-  *  \`n! = n \* (n-1) \* (n-2) \* ... \* 1\`
+  *  n! = n \* (n-1) \* (n-2) \* ... \* 1
 
   * The factorial of \`0\` is \`1\` by definition.
 
@@ -130,4 +130,3 @@ content: >+
 
   This problem helps in understanding recursion, loops, and mathematical
   functions in Python.
-
