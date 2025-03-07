@@ -1,5 +1,5 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
-id: unit3
-title: Hard Level
-lessons:
-  - lesson1/index.yml
+id: lesson1
+title: placeholder
+lessonParts:
+  - lessonpart1.yml
