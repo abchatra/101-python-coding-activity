@@ -111,5 +111,8 @@ content: >
   3\. Extend the function to handle cases where all numbers are equal.
 
 
+
+
   This problem helps in understanding conditional statements and comparisons in
   Python.
+showEditor: true
