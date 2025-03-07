@@ -1,0 +1,134 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart8
+title: Reverse a string
+content: >+
+  # &#x20;Reverse a String Using a Loop
+
+
+  ## Introduction
+
+
+  Reversing a string is a common problem in programming and is often used in
+  text processing, algorithms, and coding interviews. In this problem, we will
+  write a Python function to reverse a given string using a loop.
+
+
+  ## Problem Statement
+
+
+  Write a Python function that takes a string as input and returns its reverse.
+  The function should use a loop to reverse the string instead of built-in
+  functions.
+
+
+  ## &#x20;Explanation
+
+
+  To solve this problem, follow these steps:
+
+
+  1\. Define a function that takes a string as input.
+
+
+  2\. Initialize an empty string to store the reversed result.
+
+
+  3\. Iterate through the string from the last character to the first.
+
+
+  4\. Append each character to the new string.
+
+
+  5\. Return the reversed string.
+
+
+  ## &#x20;Function Signature
+
+
+  ```
+
+  def reverse_string(s):
+
+  ```
+
+
+  ## &#x20;Example Test Cases
+
+
+  ### &#x20;Input:
+
+
+  ```
+
+  print(reverse_string("hello"))
+
+
+  print(reverse_string("Python"))
+
+
+  print(reverse_string("racecar"))
+
+
+  print(reverse_string("12345"))
+
+  ```
+
+
+  ### Output:
+
+
+  olleh
+
+
+  nohtyP
+
+
+  racecar
+
+
+  54321
+
+
+  ## &#x20;Constraints
+
+
+  1\. The input string can contain uppercase and lowercase letters, digits, and
+  special characters.
+
+
+  2\. The function should not use the built-in \`\[::-1]\` slicing method.
+
+
+  3\. The input string length can be up to \`10^5\` characters.
+
+
+
+
+  ## &#x20;Hint
+
+
+  * Use a \`for\` loop to iterate through the string in reverse order.
+
+
+  - Use string concatenation or a list to build the reversed string.
+
+
+  ## &#x20;Challenges
+
+
+  1\. Modify the function to reverse the string in place (without creating a new
+  string).
+
+
+  2\. Implement an iterative approach using a two-pointer technique.
+
+
+  3\. Extend the function to handle and reverse sentences while preserving word
+  order.
+
+
+
+
+  This problem helps in understanding loops, string manipulation, and optimizing
+  operations in Python.
+
