@@ -1,0 +1,127 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart9
+title: Tuple swap
+content: >+
+  # Swap Two Variables Without a Temporary Variable
+
+
+  ## &#x20;Introduction
+
+
+  Swapping two variables is a common operation in programming. Traditionally, a
+  temporary variable is used to hold one value while the swap occurs. However,
+  Python allows swapping two variables without using a temporary variable,
+  utilizing tuple unpacking or arithmetic operations.
+
+
+  ## &#x20;Problem Statement
+
+
+  Write a Python function that swaps the values of two variables without using a
+  temporary variable. The function should return the swapped values.
+
+
+  ## &#x20;Explanation
+
+
+  To solve this problem, follow these steps:
+
+
+  1\. Define a function that takes two variables as input.
+
+
+  2\. Use tuple unpacking or arithmetic operations to swap the values.
+
+
+  3\. Return the swapped values.
+
+
+  ## &#x20;Function Signature
+
+
+  ```
+
+  def swap_variables(a, b):
+
+  ```
+
+
+  ## &#x20;Example Test Cases
+
+
+  ### &#x20;Input
+
+
+  ```
+
+  print(swap_variables(3, 5))
+
+
+  print(swap_variables(-1, 8))
+
+
+  print(swap_variables(0, 100))
+
+
+  print(swap_variables(7, 7))
+
+  ```
+
+
+  ### &#x20;Output:
+
+
+  (5, 3)
+
+
+  (8, -1)
+
+
+  (100, 0)
+
+
+  (7, 7)
+
+
+  ## &#x20;Constraints
+
+
+  1\. The input values can be integers, floating-point numbers, or strings.
+
+
+  2\. The function should not use a temporary variable for swapping.
+
+
+  3\. The function should return a tuple containing the swapped values.
+
+
+  ## &#x20;Hint
+
+
+  * Use tuple unpacking: \`a, b = b, a\`
+
+
+  - Alternatively, use arithmetic operations: \`a = a + b\`, \`b = a - b\`, \`a
+  = a - b\`
+
+
+
+
+  ## Challenges
+
+
+  1\. Modify the function to swap three or more variables without using
+  additional variables.
+
+
+  2\. Implement a swap function that works with lists or other data structures.
+
+
+  3\. Extend the function to handle and swap variables of mixed data types.
+
+
+
+
+  This problem helps in understanding tuple unpacking, arithmetic operations,
+  and efficient variable manipulation in Python.
+
