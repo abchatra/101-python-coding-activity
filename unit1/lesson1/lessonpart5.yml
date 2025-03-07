@@ -1,0 +1,115 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart5
+title: Largest of three numbers
+content: >
+  # Find the Largest of Three Numbers
+
+
+  ## Introduction
+
+
+  Comparing numbers is a fundamental concept in programming. In this problem, we
+  will write a Python program to determine the largest of three given numbers
+  using conditional statements.
+
+
+  ## &#x20;Problem Statement
+
+
+  Write a Python function that takes three numbers as input and returns the
+  largest of the three.
+
+
+  ## &#x20;Explanation
+
+
+  To solve this problem, follow these steps:
+
+
+  1\. Define a function that takes three parameters.
+
+
+  2\. Use conditional statements (\`if-elif-else\`) to compare the numbers.
+
+
+  3\. Return the largest number.
+
+
+  ## &#x20;Function Signature
+
+
+  ```
+
+  def find_largest(a, b, c):
+
+  ```
+
+
+  ## &#x20;Example Test Cases
+
+
+  ### &#x20;Input:
+
+
+  ```
+
+  print(find_largest(3, 5, 7))
+
+
+  print(find_largest(10, 2, 8))
+
+
+  print(find_largest(-1, -5, -3))
+
+
+  print(find_largest(100, 100, 50))
+
+  ```
+
+
+  ### &#x20;Output:
+
+
+  7
+
+
+  10
+
+
+  -1
+
+
+  100
+
+
+  ## &#x20;Constraints
+
+
+  1\. The input numbers can be positive, negative, or zero.
+
+
+  2\. The function should return one of the input values as the largest.
+
+
+  ## &#x20;Hint
+
+
+  * Use \`if-elif-else\` statements to compare the numbers.
+
+  * You may also use the built-in \`max()\` function to simplify the solution.
+
+
+  ## Challenges
+
+
+  1\. Modify the function to accept a list of numbers and find the largest.
+
+
+  2\. Implement an alternative solution using the \`sorted()\` function.
+
+
+  3\. Extend the function to handle cases where all numbers are equal.
+
+
+  This problem helps in understanding conditional statements and comparisons in
+  Python.
