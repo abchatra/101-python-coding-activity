@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://vscodeedu.com/schema/course-v2.schema.json
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: course1
 title: 101 Python programming questions
 level: beginner
@@ -280,7 +280,7 @@ description: >+
 
   101. Solve a problem using dynamic programming (e.g., the Knapsack problem).
 
-cardImageUrl: https://ppe.vscodeedu.com/assets/course-cards/card4.png
+cardImageUrl: https://ppe.vscodeedu.com/assets/course-cards/card3.png
 contacts:
   - displayName: abchatra
     homePageUrl: https://github.com/abchatra/101-python-coding-activity

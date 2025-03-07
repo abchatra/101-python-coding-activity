@@ -1,166 +1,134 @@
-# yaml-language-server: $schema=https://vscodeedu.com/schema/course-v2.schema.json
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Add two numbers
 duration: 5
 content: >
-  # Program to Add Two Numbers
+  # &#x20;Add Two Numbers
 
 
   ## Introduction
 
 
-  Adding two numbers is one of the simplest and most fundamental programming
-  tasks. This program is designed to take two inputs from the user, add them
-  together, and print the result. This basic operation is foundational in
-  learning programming and understanding data manipulation.
+  Addition is one of the most fundamental operations in mathematics and
+  programming. In this problem, we will implement a simple Python function to
+  add two numbers. This exercise will help reinforce the concept of function
+  definition, parameter passing, and returning values.
+
+
+  ## Problem Statement
+
+
+  Write a Python function that takes two numbers as input and returns their sum.
+  You need to define a function that accepts two arguments and returns the
+  result of their addition.
 
 
   ## Explanation
 
 
-  1. **Function Creation**: The `add_two_numbers(a, b)` function is created to
-  take two arguments, `a` and `b`, and return their sum. This encapsulates the
-  addition logic and makes it reusable.
-
-  2. **Input Handling**: The `input()` function is used to take user input, and
-  it is converted to `float` to allow for decimal numbers as well as integers.
-
-  3. **Function Call and Result Display**: The input values are passed to the
-  `add_two_numbers` function, and the result is printed.
+  To solve this problem, follow these steps:
 
 
-  ## Test Cases
+  1\. Define a function that takes two parameters.
 
 
-  ### Test Case 1
+  2\. Use the \`+\` operator to compute the sum.
 
 
-  **Input**:
+  3\. Return the sum of the two numbers.
+
+
+  Your function should be reusable and work for different sets of inputs.
+
+
+  ## Function Signature
 
 
   ```
 
-  Enter the first number: 5
-
-  Enter the second number: 3
+  def add_numbers(a, b)
 
   ```
 
 
-  **Output**:
+  ## &#x20;Example Test Cases
+
+
+  ### &#x20;Input:
 
 
   ```
 
-  The sum of 5.0 and 3.0 is: 8.0
+  print(add_numbers(3, 5))  
+
+
+  print(add_numbers(-2, 8))  
+
+
+  print(add_numbers(0, 0))  
+
+
+  print(add_numbers(100, 200))
 
   ```
 
 
-  ### Test Case 2
-
-
-  **Input**:
+  ### Output:
 
 
   ```
 
-  Enter the first number: -2.5
-
-  Enter the second number: 4.5
-
-  ```
+  8  
 
 
-  **Output**:
+  6  
 
 
-  ```
+  0  
 
-  The sum of -2.5 and 4.5 is: 2.0
+
+  300
 
   ```
 
 
-  ### Test Case 3
 
 
-  **Input**:
+  ### Constraints
 
 
-  ```
-
-  Enter the first number: 0
-
-  Enter the second number: 0
-
-  ```
+  1\. The function should accept two integers.
 
 
-  **Output**:
+  2\. The function should return an integer.
 
 
-  ```
-
-  The sum of 0.0 and 0.0 is: 0.0
-
-  ```
+  3\. The numbers can be positive, negative, or zero.
 
 
-  ### Test Case 4
+  ## Hint
 
 
-  **Input**:
+  \- Use the \`+\` operator to perform addition.
 
 
-  ```
-
-  Enter the first number: 123456789
-
-  Enter the second number: 987654321
-
-  ```
+  \- Ensure that your function correctly returns the sum and does not print
+  anything inside the function.
 
 
-  **Output**:
+  ### Challenges
 
 
-  ```
-
-  The sum of 123456789.0 and 987654321.0 is: 1111111110.0
-
-  ```
+  1\. Modify the function to handle floating-point numbers (\`float\` type) in
+  addition to integers.
 
 
-  ## Program
+  2\. Extend the function to accept multiple numbers and return their sum using
+  \`\*args\`.
 
 
-  ```python
-
-  def add_two_numbers(a, b):
-      return a + b
-
-  # User input
-
-  num1 = float(input("Enter the first number: "))
-
-  num2 = float(input("Enter the second number: "))
+  3\. Implement error handling to ensure that the inputs are numeric.
 
 
-  # Function call
-
-  result = add_two_numbers(num1, num2)
-
-
-  # Display the result
-
-  print(f"The sum of {num1} and {num2} is: {result}")
-
-  ```
-showContent: true
-showEditor: false
-showTerminal: false
-showExplorer: false
-editors:
-  - type: py
-    path: course1:unit1:lesson1:lessonpart1/add.py
+  This problem helps beginners understand function definition, return
+  statements, and basic arithmetic operations in Python.

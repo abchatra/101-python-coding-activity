@@ -1,7 +1,3 @@
-# yaml-language-server: $schema=https://vscodeedu.com/schema/course-v2.schema.json
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart3
 title: Factorial of a number
-showContent: true
-showEditor: false
-showTerminal: false
-showExplorer: false

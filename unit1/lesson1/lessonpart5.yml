@@ -1,7 +1,3 @@
-# yaml-language-server: $schema=https://vscodeedu.com/schema/course-v2.schema.json
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart5
 title: Find the largest of three numbers
-showContent: true
-showEditor: false
-showTerminal: false
-showExplorer: false
