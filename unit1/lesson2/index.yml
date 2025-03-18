@@ -3,3 +3,4 @@ id: lesson2
 title: "Conditionals & Loops "
 lessonParts:
   - lessonpart1.yml
+  - lessonpart2.yml
