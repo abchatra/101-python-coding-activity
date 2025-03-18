@@ -1,0 +1,159 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart1
+title: Multiplication table for a number
+content: >+
+  # Multiplication Table
+
+
+  ## Introduction
+
+
+  Multiplication tables are a fundamental concept in mathematics and are
+  commonly used to learn multiplication and arithmetic. In programming, creating
+  a multiplication table is a simple exercise that helps beginners practice
+  loops and output formatting.
+
+
+  ## Problem Statement
+
+
+  Write a Python program that prints the multiplication table for a given number
+  up to 10 multiples.
+
+
+  ## Explanation
+
+
+  The program should:
+
+
+  * Accept a number as input.
+
+  * Print the multiplication table from 1 to 10 for that number in a clear
+  format.
+
+  * Each line should show the multiplication step, for example: `5 x 3 = 15`.
+
+
+  ## Function Signature
+
+
+  ```
+
+  def print_multiplication_table(number):
+
+  ```
+
+
+  ## Example Test Cases
+
+
+  ### Test Case 1:
+
+
+  **Input:**
+
+
+  ```
+
+  print_multiplication_table(5)
+
+  ```
+
+
+  **Output:**
+
+
+  ```
+
+  5 x 1 = 5
+
+  5 x 2 = 10
+
+  5 x 3 = 15
+
+  5 x 4 = 20
+
+  5 x 5 = 25
+
+  5 x 6 = 30
+
+  5 x 7 = 35
+
+  5 x 8 = 40
+
+  5 x 9 = 45
+
+  5 x 10 = 50
+
+  ```
+
+
+  ### Test Case 2:
+
+
+  **Input:**
+
+
+  ```
+
+  print_multiplication_table(3)
+
+  ```
+
+
+  **Output:**
+
+
+  ```
+
+  3 x 1 = 3
+
+  3 x 2 = 6
+
+  3 x 3 = 9
+
+  3 x 4 = 12
+
+  3 x 5 = 15
+
+  3 x 6 = 18
+
+  3 x 7 = 21
+
+  3 x 8 = 24
+
+  3 x 9 = 27
+
+  3 x 10 = 30
+
+  ```
+
+
+  ## Constraints
+
+
+  * The number will be a positive integer.
+
+  * The number will not exceed 1000.
+
+
+  ## Hint
+
+
+  Use a loop that runs from 1 to 10 and multiply the given number by the loop
+  variable in each iteration.
+
+
+  ## Challenges
+
+
+  * Modify the program to print the table up to `n` multiples, where `n` is also
+  an input.
+
+  * Try formatting the output using string formatting techniques (f-strings or
+  `format()` function).
+
+  * Enhance the program to generate multiplication tables for a range of numbers
+  instead of just one.
+
