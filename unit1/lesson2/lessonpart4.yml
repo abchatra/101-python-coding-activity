@@ -1,0 +1,145 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart4
+title: Greatest common divisor
+content: >+
+  # Find the Greatest Common Divisor (GCD) of Two Numbers
+
+
+  ## Introduction
+
+
+  The Greatest Common Divisor (GCD) of two numbers is the largest number that
+  divides both of them without leaving a remainder. It is widely used in number
+  theory and has applications in simplifying fractions, cryptography, and more.
+  This problem helps in practicing loops, conditions, and built-in functions in
+  Python.
+
+
+  ## Problem Statement
+
+
+  Write a Python program to find the GCD of two given numbers.
+
+
+  ## Explanation
+
+
+  The program should:
+
+
+  * Take two numbers as input.
+
+  * Calculate the GCD of the given numbers.
+
+  * Print the GCD.
+
+
+  ## Function Signature
+
+
+  ```
+
+  def find_gcd(a, b):
+
+  ```
+
+
+  ## Example Test Cases
+
+
+  ### Test Case 1:
+
+
+  **Input:**
+
+
+  ```
+
+  print(find_gcd(36, 60))
+
+  ```
+
+
+  **Output:**
+
+
+  ```
+
+  12
+
+  ```
+
+
+  ### Test Case 2:
+
+
+  **Input:**
+
+
+  ```
+
+  print(find_gcd(17, 31))
+
+  ```
+
+
+  **Output:**
+
+
+  ```
+
+  1
+
+  ```
+
+
+  ### Test Case 3:
+
+
+  **Input:**
+
+
+  ```
+
+  print(find_gcd(100, 10))
+
+  ```
+
+
+  **Output:**
+
+
+  ```
+
+  10
+
+  ```
+
+
+  ## Constraints
+
+
+  * Both numbers will be positive integers.
+
+  * Numbers will not exceed 1,000,000.
+
+
+  ## Hint
+
+
+  * You can use the Euclidean algorithm: repeatedly replace the larger number by
+  the remainder when the larger number is divided by the smaller one, until the
+  remainder is zero.
+
+  * Alternatively, Python provides a built-in `math.gcd()` function.
+
+
+  ## Challenges
+
+
+  * Implement the solution without using the built-in `math.gcd()` function.
+
+  * Extend the program to find the GCD of more than two numbers.
+
+  * Optimize the solution for very large numbers.
+

@@ -137,3 +137,4 @@ content: >+
   * Enhance the program to count and display the total number of primes found in
   the range.
 
+showEditor: true
