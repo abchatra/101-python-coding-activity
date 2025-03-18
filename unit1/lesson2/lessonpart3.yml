@@ -1,0 +1,142 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart3
+title: Perfect square
+content: >+
+  # &#x20;Check if a Number is a Perfect Square
+
+
+  ## Introduction
+
+
+  A perfect square is a number that can be expressed as the product of an
+  integer by itself. Checking if a number is a perfect square is a common
+  problem that helps beginners practice mathematical operations and conditional
+  logic in Python.
+
+
+  ## Problem Statement
+
+
+  Write a Python program to check if a given number is a perfect square.
+
+
+  ## Explanation
+
+
+  The program should:
+
+
+  * Accept a number as input.
+
+  * Determine whether the number is a perfect square.
+
+  * Print `True` if it is a perfect square, otherwise `False`.
+
+
+  ## Function Signature
+
+
+  ```
+
+  def is_perfect_square(number):
+
+  ```
+
+
+  ## Example Test Cases
+
+
+  ### Test Case 1:
+
+
+  **Input:**
+
+
+  ```
+
+  print(is_perfect_square(16))
+
+  ```
+
+
+  **Output:**
+
+
+  ```
+
+  True
+
+  ```
+
+
+  ### Test Case 2:
+
+
+  **Input:**
+
+
+  ```
+
+  print(is_perfect_square(20))
+
+  ```
+
+
+  **Output:**
+
+
+  ```
+
+  False
+
+  ```
+
+
+  ### Test Case 3:
+
+
+  **Input:**
+
+
+  ```
+
+  print(is_perfect_square(1))
+
+  ```
+
+
+  **Output:**
+
+
+  ```
+
+  True
+
+  ```
+
+
+  ## Constraints
+
+
+  * The number will be a non-negative integer.
+
+  * The number will not exceed 1,000,000.
+
+
+  ## Hint
+
+
+  * Take the integer square root of the number (you can use `int(number **
+  0.5)`) and check if squaring this value gives the original number.
+
+
+  ## Challenges
+
+
+  * Modify the program to handle very large numbers efficiently.
+
+  * Return a detailed message instead of just `True` or `False` (e.g., `"16 is a
+  perfect square of 4."`).
+
+  * Extend the function to check a list of numbers and return results for each.
+
