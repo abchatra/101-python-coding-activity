@@ -37,6 +37,9 @@ cardImageUrl: https://ppe.vscodeedu.com/assets/course-cards/card3.png
 contacts:
   - displayName: abchatra
     homePageUrl: https://github.com/abchatra/101-python-coding-activity
+files:
+  - path: course1/unit1/lesson1/lessonpart1/test.py
+    content: print("hello world")
 units:
   - unit1/index.yml
   - unit2/index.yml

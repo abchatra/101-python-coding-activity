@@ -1,0 +1,129 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart12
+title: Remove duplicates from a list
+content: >+
+  # &#x20;Remove Duplicates from a List
+
+
+  ## &#x20;Introduction
+
+
+  Lists in Python can contain duplicate elements, which may not always be
+  desirable. In this problem, we will write a Python function to remove
+  duplicate elements from a list while maintaining the original order.
+
+
+  ## &#x20;Problem Statement
+
+
+  Write a Python function that takes a list as input and returns a new list with
+  all duplicate elements removed, preserving the original order.
+
+
+  ## Explanation
+
+
+  To solve this problem, follow these steps:
+
+
+  1\. Define a function that takes a list as input.
+
+
+  2\. Initialize an empty set to track unique elements.
+
+
+  3\. Iterate through the list, adding elements to the set while maintaining
+  order.
+
+
+  4\. Return a new list containing only unique elements.
+
+
+  ## &#x20;Function Signature
+
+
+  ```
+
+  def remove_duplicates(lst):
+
+  ```
+
+
+  ## &#x20;Example Test Cases
+
+
+  ### Input:
+
+
+  ```
+
+  print(remove_duplicates([1, 2, 2, 3, 4, 4, 5]))
+
+
+  print(remove_duplicates(["apple", "banana", "apple", "cherry"]))
+
+
+  print(remove_duplicates([10, 20, 30, 10, 20, 40]))
+
+
+  print(remove_duplicates([]))
+
+  ```
+
+
+  ### &#x20;Output:
+
+
+  \[1, 2, 3, 4, 5]
+
+
+  \['apple', 'banana', 'cherry']
+
+
+  \[10, 20, 30, 40]
+
+
+  \[]
+
+
+  ## &#x20;Constraints
+
+
+  1\. The input list can contain integers, strings, or a mix of both.
+
+
+  2\. The function should preserve the original order of elements.
+
+
+  3\. The input list can have up to \`10^6\` elements, so the solution should be
+  optimized.
+
+
+  ## &#x20;Hint
+
+
+  * Use a set to track unique elements while iterating through the list.
+
+
+  - Consider using a dictionary (\`dict.fromkeys(lst)\`) for an efficient
+  one-liner solution.
+
+
+  ## Challenges
+
+
+  1\. Modify the function to remove duplicates \*\*in place\*\* without creating
+  a new list.
+
+
+  2\. Implement an optimized approach with minimal extra memory usage.
+
+
+  3\. Extend the function to work with nested lists or custom objects.
+
+
+
+
+  This problem helps in understanding data structures like sets, dictionaries,
+  and efficient list operations in Python.
+

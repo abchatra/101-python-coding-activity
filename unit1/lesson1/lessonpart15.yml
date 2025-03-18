@@ -1,0 +1,138 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart15
+title: Celsius to Fahrenheit
+content: >+
+  # Convert Temperature from Celsius to Fahrenheit
+
+
+  ## Introduction
+
+
+  Temperature conversion is a common problem in programming. The Celsius and
+  Fahrenheit scales are used for measuring temperature, and converting between
+  them is often required in scientific and real-world applications. In this
+  problem, we will write a Python program to convert a given temperature from
+  Celsius to Fahrenheit.
+
+
+  ## &#x20;Problem Statement
+
+
+  Write a Python function that takes a temperature in **Celsius** as input and
+  returns the equivalent temperature in **Fahrenheit**. The conversion formula
+  is:
+
+
+  F = (C \* 9/5) + 32
+
+
+  where: **F** is the temperature in Fahrenheit, C is the temperature in
+  Celsius.
+
+
+  ## &#x20;Explanation
+
+
+  To solve this problem, follow these steps:
+
+
+  1\. Define a function that takes a Celsius temperature as input.
+
+
+  2\. Apply the conversion formula \`F = (C × 9/5) + 32\`.
+
+
+  3\. Return the converted temperature in Fahrenheit.
+
+
+  ## &#x20;Function Signature
+
+
+  ```
+
+  def celsius_to_fahrenheit(celsius):
+
+  ```
+
+
+  ## &#x20;Example Test Cases
+
+
+  ### &#x20;Input:
+
+
+  ```
+
+  print(celsius_to_fahrenheit(0))
+
+
+  print(celsius_to_fahrenheit(25))
+
+
+  print(celsius_to_fahrenheit(-10))
+
+
+  print(celsius_to_fahrenheit(100))
+
+  ```
+
+
+  ### &#x20;Output:
+
+
+  32.0
+
+
+  77.0
+
+
+  14.0
+
+
+  212.0
+
+
+  ## &#x20;Constraints
+
+
+  1\. The input Celsius value can be any real number (positive, negative, or
+  zero).
+
+
+  2\. The function should return the output as a floating-point number.
+
+
+  3\. The function should handle extreme temperature values correctly.
+
+
+  ## Hint
+
+
+  * Use the multiplication, division, and addition operators to apply the
+  conversion formula.
+
+
+  - Consider using the \`round()\` function to format the output to two decimal
+  places if necessary.
+
+
+  ## &#x20;Challenges
+
+
+  1\. Modify the function to also convert \*\*Fahrenheit to Celsius\*\* using
+  the formula:
+
+
+  &#x20;  2\. Extend the function to support both conversions based on a
+  parameter.
+
+
+  3\. Implement an interactive program where the user can input values and
+  choose the conversion type.
+
+
+
+
+  This problem helps in understanding mathematical operations, function design,
+  and handling floating-point values in Python.
+

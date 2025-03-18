@@ -1,0 +1,130 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart13
+title: Count characters
+content: >+
+  # Count the Number of Characters in a String
+
+
+  ## &#x20;Introduction
+
+
+  Counting the number of characters in a string is a fundamental task in text
+  processing. While Python provides a built-in \`len()\` function to do this
+  easily, in this problem, we will implement our own method to count characters
+  manually.
+
+
+  ## &#x20;Problem Statement
+
+
+  Write a Python function that takes a string as input and returns the number of
+  characters it contains, **without using the built-in \`len()\` function**.
+
+
+  ## &#x20;Explanation
+
+
+  To solve this problem, follow these steps:
+
+
+  1\. Define a function that takes a string as input.
+
+
+  2\. Initialize a counter variable (\`count = 0\`).
+
+
+  3\. Iterate through the string character by character, increasing the counter
+  for each character.
+
+
+  4\. Return the final count.
+
+
+  ## Function Signature
+
+
+  ```
+
+  def count_characters(s):
+
+  ```
+
+
+  ## &#x20;Example Test Cases
+
+
+  ### &#x20;Input:
+
+
+  ```
+
+  print(count_characters("hello"))
+
+
+  print(count_characters("Python Programming"))
+
+
+  print(count_characters(""))
+
+
+  print(count_characters("12345!@#"))
+
+  ```
+
+
+  ### &#x20;Output:
+
+
+  5
+
+
+  18
+
+
+  0
+
+
+  8
+
+
+  ## &#x20;Constraints
+
+
+  1\. The input string can contain alphabets, numbers, spaces, and special
+  characters.
+
+
+  2\. The function should work for an empty string (should return \`0\`).
+
+
+  3\. The input string length can be up to \`10^6\` characters.
+
+
+  ## &#x20;Hint
+
+
+  * Use a loop (\`for\` or \`while\`) to iterate through each character and
+  count it manually.
+
+
+  - Consider using a \`try-except\` block if handling special cases.
+
+
+  ## &#x20;Challenges
+
+
+  1\. Modify the function to count only alphabetic characters while ignoring
+  spaces and special symbols.
+
+
+  2\. Implement a recursive solution for counting characters.
+
+
+  3\. Optimize the function to handle very large strings efficiently.
+
+
+
+
+  This problem helps in understanding iteration, string traversal, and
+  algorithmic problem-solving in Python.
+

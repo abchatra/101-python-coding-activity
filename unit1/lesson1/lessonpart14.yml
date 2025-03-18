@@ -1,0 +1,113 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart14
+title: Prime numbers
+content: >
+  # Print Prime Numbers Between 1 and 100
+
+
+  ## &#x20;Introduction
+
+
+  Prime numbers are numbers that are greater than 1 and have only two factors:
+  \*\*1 and itself\*\*. The first few prime numbers are \*\*2, 3, 5, 7, 11,
+  ...\*\*. In this problem, we will write a Python program to print all prime
+  numbers between \*\*1 and 100\*\*.
+
+
+  ## &#x20;Problem Statement
+
+
+  Write a Python function that prints all prime numbers between \*\*1 and
+  100\*\*.
+
+
+  ## &#x20;Explanation
+
+
+  To solve this problem, follow these steps:
+
+
+  1\. Define a function to check if a number is prime.
+
+
+  2\. Loop through numbers from \*\*1 to 100\*\*.
+
+
+  3\. For each number, check if it is prime.
+
+
+  4\. If the number is prime, print it.
+
+
+  ## &#x20;Function Signature
+
+
+  ```
+
+  def print_primes(number):
+
+  ```
+
+
+  ## &#x20;
+
+
+  ### &#x20;
+
+
+  ### Input:
+
+
+  ```
+
+  print_primes(100)
+
+  ```
+
+
+  ### Output:
+
+
+  2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97
+
+
+  ## Constraints
+
+
+  1\. The function should print prime numbers between **1 and 100**.
+
+
+  2\. The function should use an efficient method to check for prime numbers.
+
+
+  ## &#x20;Hint
+
+
+  * A prime number is \*\*only divisible by 1 and itself\*\*.
+
+
+  - Use a loop to check divisibility up to \`√n\` (square root of \`n\`) for
+  optimization.
+
+
+  ## &#x20;Challenges
+
+
+  1\. Modify the function to find prime numbers in any given range \`(start,
+  end)\`.
+
+
+  2\. Optimize the function using **Sieve of Eratosthenes** for better
+  performance.
+
+
+  3\. Implement the function using recursion instead of loops.
+
+
+
+
+  This problem helps in understanding loops, conditional statements, and number
+  theory concepts in Python.
+showEditor: true
+editors:
+  - course1/unit1/lesson1/lessonpart14/test.py
