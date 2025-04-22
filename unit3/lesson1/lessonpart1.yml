@@ -1,4 +1,64 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: placeholder
-content: "# Enter your content here"
+content: >
+  ## Introduction
+
+
+  Bubble sort is a simple sorting algorithm that repeatedly steps through the
+  list, compares adjacent elements, and swaps them if they are in the wrong
+  order. The pass through the list is repeated until the list is sorted. The
+  algorithm gets its name because smaller elements "some other sort" to the top
+  of the list.
+
+
+  ## Problem Statement
+
+
+  Implement the bubble sort algorithm in Python. The function should take a list
+  of integers as input and return a new list with the integers sorted in
+  ascending order. The algorithm should repeatedly compare adjacent elements and
+  swap them if they are in the wrong order, continuing this process until the
+  list is sorted.
+
+
+  ## Tests
+
+
+  To ensure the bubble sort implementation is correct, consider the following
+  test cases:
+
+
+  1. **Test Case 1:**
+     * Input: `[64, 34, 25, 12, 22, 11, 90]`
+     * Expected Output: `[11, 12, 22, 25, 34, 64, 90]`
+
+  2. **Test Case 2:**
+     * Input: `[5, 1, 4, 2, 8]`
+     * Expected Output: `[1, 2, 4, 5, 8]`
+
+  3. **Test Case 3:**
+     * Input: `[3, 0, -1, 8, 7, 2]`
+     * Input Output: `[-1, 0, 2, 3, 7, 8]`
+
+  4. **Test Case 4:**
+     * Input: `[]` (an empty list)
+     * Expected Output: `[]`
+
+  5. **Test Case 5:**
+     * Input: `[1]` (a single-element list)
+     * Expected Output: `[1]`
+
+  Make sure to test the function with these cases to verify its correctness.
+questionGroups:
+  - questions:
+      - id: "1"
+        type: choice
+        content: ""
+        options:
+          - id: "1"
+            value: ""
+  - questions:
+      - id: "1"
+        type: string
+        content: ""
