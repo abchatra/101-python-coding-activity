@@ -29,8 +29,10 @@ content: >+
 
   * Accept a number as input.
 
+
   * Print the multiplication table from 1 to 10 for that number in a clear
   format.
+
 
   * Each line should show the multiplication step, for example: `5 x 3 = 15`.
 
@@ -135,6 +137,7 @@ content: >+
 
   * The number will be a positive integer.
 
+
   * The number will not exceed 1000.
 
 
@@ -151,8 +154,10 @@ content: >+
   * Modify the program to print the table up to `n` multiples, where `n` is also
   an input.
 
+
   * Try formatting the output using string formatting techniques (f-strings or
   `format()` function).
+
 
   * Enhance the program to generate multiplication tables for a range of numbers
   instead of just one.

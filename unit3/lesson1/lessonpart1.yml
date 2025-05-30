@@ -51,14 +51,16 @@ content: >
 
   Make sure to test the function with these cases to verify its correctness.
 questionGroups:
-  - questions:
+  - id: ""
+    questions:
       - id: "1"
         type: choice
         content: ""
         options:
           - id: "1"
             value: ""
-  - questions:
+  - id: ""
+    questions:
       - id: "1"
         type: string
         content: ""

@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lesson2
-title: "Conditionals & Loops "
+title: Conditionals & Loops
 lessonParts:
   - lessonpart1.yml
   - lessonpart2.yml

@@ -29,7 +29,9 @@ content: >+
 
   * Take two numbers as input.
 
+
   * Calculate the GCD of the given numbers.
+
 
   * Print the GCD.
 
@@ -121,6 +123,7 @@ content: >+
 
   * Both numbers will be positive integers.
 
+
   * Numbers will not exceed 1,000,000.
 
 
@@ -131,6 +134,7 @@ content: >+
   the remainder when the larger number is divided by the smaller one, until the
   remainder is zero.
 
+
   * Alternatively, Python provides a built-in `math.gcd()` function.
 
 
@@ -139,7 +143,9 @@ content: >+
 
   * Implement the solution without using the built-in `math.gcd()` function.
 
+
   * Extend the program to find the GCD of more than two numbers.
+
 
   * Optimize the solution for very large numbers.
 
