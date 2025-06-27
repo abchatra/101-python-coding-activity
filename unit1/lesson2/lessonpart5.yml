@@ -1,0 +1,87 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart5
+title: Reverse a number
+content: >+
+  ## Introduction
+
+
+  In this exercise, you will write a Python program to reverse a given number.
+  This problem will help you practice using loops and conditionals, which are
+  fundamental concepts in programming.
+
+
+  ## Problem Statement
+
+
+  Write a Python program that takes an integer as input and returns the integer
+  with its digits reversed. For example, if the input is `1234`, the output
+  should be `4321`.
+
+
+  ## Explanation
+
+
+  Reversing a number involves extracting its digits and rearranging them in
+  reverse order. You can achieve this by repeatedly extracting the last digit of
+  the number and appending it to a new number until the original number is
+  reduced to zero.
+
+
+  ## Function Signature
+
+
+  ```python
+
+  def reverse_number(n):
+      pass
+  ```
+
+
+  ## Example Test Cases
+
+
+  * **Test Case 1:**
+
+    * Input: `1234`
+
+    * Output: `4321`
+
+  * **Test Case 2:**
+
+    * Input: `-5678`
+
+    * Output: `-8765`
+
+  * **Test Case 3:**
+
+    * Input: `1000`
+
+    * Output: `1`
+
+  ## Constraints
+
+
+  * The input number can be positive or negative.
+
+
+  * The input number can have leading zeros, which should be ignored in the
+  output.
+
+
+  ## Hint
+
+
+  Consider using a loop to repeatedly extract the last digit of the number using
+  the modulus operator and build the reversed number by multiplying the current
+  reversed number by 10 and adding the extracted digit.
+
+
+  ## Challenges
+
+
+  * Handle negative numbers correctly by preserving the negative sign in the
+  reversed number.
+
+
+  * Ensure that leading zeros in the input do not appear in the output.
+

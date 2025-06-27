@@ -130,3 +130,24 @@ content: >
 showEditor: true
 editors:
   - course1/unit1/lesson1/lessonpart1/test.py
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: choice
+        content: What is a function in Python?
+        options:
+          - id: "1"
+            value: A block of code that performs a specific task and can be reused.
+            explanation: Functions are reusable blocks of code that perform specific tasks.
+            isCorrect: true
+          - id: "2"
+            value: A variable that stores data.
+            explanation: Variables store data, not perform tasks.
+          - id: "3"
+            value: A type of loop that iterates over a sequence.
+            explanation: Loops iterate over sequences, not perform specific tasks.
+          - id: "4"
+            value: A conditional statement that executes code based on a condition.
+            explanation: Conditional statements execute code based on conditions, not
+              perform specific tasks.

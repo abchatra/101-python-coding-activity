@@ -1,0 +1,80 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart8
+title: Divisible 5
+content: >+
+  ## Introduction
+
+
+  In this exercise, you will practice using loops and conditionals in Python to
+  solve a common problem: finding numbers divisible by a specific value within a
+  given range. This task will help you understand how to iterate over a range of
+  numbers and apply conditional logic to filter results.
+
+
+  ## Problem Statement
+
+
+  Write a Python program that displays all numbers divisible by 5 within a
+  specified range. The program should take two inputs: the start and end of the
+  range, and output all numbers within this range that are divisible by 5.
+
+
+  ## Explanation
+
+
+  To solve this problem, you will need to use a loop to iterate through each
+  number in the specified range. For each number, you will use a conditional
+  statement to check if it is divisible by 5. If it is, you will print the
+  number.
+
+
+  ## Function Signature
+
+
+  ```python
+
+  def find_divisible_by_5(start, end):
+      pass
+  ```
+
+
+  ## Example Test Cases
+
+
+  * **Test Case 1:**
+
+    * Input: `start = 1`, `end = 20`
+
+    * Output: `5, 10, 15, 20`
+
+  * **Test Case 2:**
+
+    * Input: `start = 10`, `end = 30`
+
+    * Output: `10, 15, 20, 25, 30`
+
+  ## Constraints
+
+
+  * The start and end values will be integers.
+
+
+  * The start value will always be less than or equal to the end value.
+
+
+  ## Hint
+
+
+  Use the modulus operator `%` to determine if a number is divisible by 5. A
+  number `n` is divisible by 5 if `n % 5 == 0`.
+
+
+  ## Challenges
+
+
+  * Modify the program to allow the user to specify any divisor, not just 5.
+
+
+  * Extend the program to return the results as a list instead of printing them,
+  which can be useful for further processing or testing.
+
