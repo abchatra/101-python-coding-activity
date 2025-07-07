@@ -1,0 +1,88 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart2
+title: Substring in another string
+content: >+
+  ## Introduction
+
+
+  In this lesson, we will explore how to manipulate strings by replacing all
+  occurrences of a specific substring within a string with another substring.
+  This is a common task in text processing and can be useful in various
+  applications, such as data cleaning and formatting.
+
+
+  ## Problem Statement
+
+
+  Write a Python program that takes a string and replaces all occurrences of a
+  given substring with another substring. The program should return the modified
+  string.
+
+
+  ## Explanation
+
+
+  To solve this problem, you will need to iterate through the original string
+  and identify all instances of the target substring. Once identified, replace
+  each occurrence with the new substring. Python provides built-in methods that
+  can simplify this task.
+
+
+  ## Function Signature
+
+
+  ```python
+
+  def replace_substring(original_string, target_substring,
+  replacement_substring):
+      pass
+  ```
+
+
+  ## Example Test Cases
+
+
+  1. **Input:** `original_string = "hello world", target_substring = "world",
+  replacement_substring = "there"`
+
+     * **Output:** `"hello there"`
+
+  2. **Input:** `original_string = "abc abc abc", target_substring = "abc",
+  replacement_substring = "xyz"`
+
+     * **Output:** `"xyz xyz xyz"`
+
+  3. **Input:** `original_string = "no match here", target_substring = "test",
+  replacement_substring = "pass"`
+
+     * **Output:** `"no match here"`
+
+  ## Constraints
+
+
+  * The `original_string`, `target_substring`, and `replacement_substring` are
+  non-empty strings.
+
+
+  * The `target_substring` may not be present in the `original_string`.
+
+
+  ## Hint
+
+
+  Consider using Python's built-in string method that allows for replacing
+  substrings efficiently without manually iterating through the string.
+
+
+  ## Challenges
+
+
+  * Try to solve the problem without using any built-in string replacement
+  methods. This will help you understand the underlying process of string
+  manipulation.
+
+
+  * Consider edge cases, such as when the `target_substring` is not found in the
+  `original_string` or when the `target_substring` and `replacement_substring`
+  are the same.
+

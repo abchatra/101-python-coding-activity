@@ -3,3 +3,4 @@ id: lesson1
 title: String manipulation
 lessonParts:
   - lessonpart1.yml
+  - lessonpart2.yml
