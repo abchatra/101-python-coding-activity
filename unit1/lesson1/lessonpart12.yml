@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart12
 title: Remove duplicates from a list
-content: >+
+content: >
   # &#x20;Remove Duplicates from a List
 
 
@@ -122,8 +122,5 @@ content: >+
   3\. Extend the function to work with nested lists or custom objects.
 
 
-
-
   This problem helps in understanding data structures like sets, dictionaries,
   and efficient list operations in Python.
-
