@@ -50,17 +50,3 @@ content: >
      * Expected Output: `[1]`
 
   Make sure to test the function with these cases to verify its correctness.
-questionGroups:
-  - id: ""
-    questions:
-      - id: "1"
-        type: choice
-        content: ""
-        options:
-          - id: "1"
-            value: ""
-  - id: ""
-    questions:
-      - id: "1"
-        type: string
-        content: ""
